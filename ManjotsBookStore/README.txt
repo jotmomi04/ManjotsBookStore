@@ -12,4 +12,5 @@ Asp .NET Core MVC web app w/ indiviual account authentication
 -test it
 1117- Confirmed the app works
 1118 - Quickly modified the content of : Views/Home/Index.csHtml
-1119 - create th e github respo for th e asignment
+1119 - create the github respo for the asignment
+1123 - repo created --- Confirm  it ?
