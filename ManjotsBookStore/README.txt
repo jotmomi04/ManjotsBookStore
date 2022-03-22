@@ -25,3 +25,8 @@ Asp .NET Core MVC web app w/ indiviual account authentication
  check it 
  1402 Add additional css and js provided files 
  save to git hub 
+ 2022-03-22
+ Check program 
+ run ok
+ 1224
+
