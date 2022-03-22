@@ -28,5 +28,21 @@ Asp .NET Core MVC web app w/ indiviual account authentication
  2022-03-22
  Check program 
  run ok
- 1224
+ 1630
+Start createing Library classes 
+Create 3 classes 
+ManjotBooks.DataAccess
+ManjotBooks.Models
+ManjotBooks.Utility
+1645 Make changes in startup.cs
+Build Solution
+Set errors 
+1715 Add Areas- Customer
+move _viewStart.cshtml
+      _viewImports.cshtml in Customer Area 
+Run Application
+tested Ok
+
+
+
 
