@@ -30,7 +30,7 @@ Asp .NET Core MVC web app w/ indiviual account authentication
  run ok
  1630
 Start createing Library classes 
-Create 3 classes 
+Create 3 classes  
 ManjotBooks.DataAccess
 ManjotBooks.Models
 ManjotBooks.Utility
@@ -43,6 +43,24 @@ move _viewStart.cshtml
 Run Application
 tested Ok
 
+Continue 2nd Part of Assignment 2 
+29-03-2022
+0121
+Check Project 
+Runiing OK
+Start with 2.1 Create the DB
+0131 
+Adding new migration file 
+Check the project 
+Run OK no error
+1:37 
+Update Database
+1:47
+
+Create new categoey class and Modify it 
+Add migration to Db
+Revivew the file 
+2.03 Update to git hub 
 
 
 

@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ManjotsBooks.Models;
 
 namespace ManjotsBookStore.DataAccess.Data
 {
@@ -12,5 +13,6 @@ namespace ManjotsBookStore.DataAccess.Data
             : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
