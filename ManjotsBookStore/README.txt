@@ -19,48 +19,61 @@ Asp .NET Core MVC web app w/ indiviual account authentication
  - Review what i complete yesterday and start  to modify
  - test it 
  1335
- reviewed the code .... checked it 
+ -reviewed the code .... checked it 
  1401
- Download bootstram theme and apply it to  wwwroot/lib/bootstarp/dist/css/bootstarp.css app
- check it 
- 1402 Add additional css and js provided files 
- save to git hub 
+ -Download bootstram theme and apply it to  wwwroot/lib/bootstarp/dist/css/bootstarp.css app
+ -check it 
+ -1402 Add additional css and js provided files 
+ -save to git hub 
+ 
  2022-03-22
- Check program 
- run ok
+ -Check program 
+ -run ok
  1630
-Start createing Library classes 
-Create 3 classes  
-ManjotBooks.DataAccess
-ManjotBooks.Models
-ManjotBooks.Utility
-1645 Make changes in startup.cs
-Build Solution
-Set errors 
+-Start createing Library classes 
+-Create 3 classes  
+-ManjotBooks.DataAccess
+-ManjotBooks.Models
+-ManjotBooks.Utility
+1645
+-Make changes in startup.cs
+-Build Solution
+-Set errors 
 1715 Add Areas- Customer
-move _viewStart.cshtml
+-move _viewStart.cshtml
       _viewImports.cshtml in Customer Area 
-Run Application
-tested Ok
+-Run Application
+-tested Ok
 
-Continue 2nd Part of Assignment 2 
+-Continue 2nd Part of Assignment 2 
+
+
 29-03-2022
 0121
-Check Project 
-Runiing OK
-Start with 2.1 Create the DB
+-Check Project 
+-Runiing OK
+-Start with 2.1 Create the DB
 0131 
-Adding new migration file 
-Check the project 
-Run OK no error
+-Adding new migration file 
+-Check the project 
+-Run OK no error
 1:37 
-Update Database
+-Update Database
 1:47
 
-Create new categoey class and Modify it 
-Add migration to Db
-Revivew the file 
+-Create new categoey class and Modify it 
+-Add migration to Db
+-Revivew the file 
 2.03 Update to git hub 
+
+29-03-2022
+1056
+-start with creating repository class
+Modify IRespository.cs
+
+
+
+
 
 
 
