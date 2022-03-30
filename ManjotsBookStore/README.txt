@@ -77,6 +77,29 @@ Modify It
 Apply InterFace 
 Before Update to giythub Build And check
 
+2345 
+Creating SP_call and ISP_Call interface and class
+Impliment interface 
+modifying 
+Check no error
+
+2:14
+Creating Unitofwork and IunitOf work
+modify and implement code 
+Check Errors 
+No error found 
+Save and run
+run ok
+
+4.38
+Modify startup file 
+Add using stattement 
+Save and build peoject 
+Project not run 
+No error in file 
+save teh file 
+
+
 
 
 
