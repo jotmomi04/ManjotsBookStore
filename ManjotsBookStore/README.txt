@@ -69,7 +69,13 @@ Asp .NET Core MVC web app w/ indiviual account authentication
 29-03-2022
 1056
 -start with creating repository class
+
+2344
 Modify IRespository.cs
+Create Indiviudal Category Repository
+Modify It 
+Apply InterFace 
+Before Update to giythub Build And check
 
 
 
