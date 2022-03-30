@@ -1,4 +1,5 @@
 
+using ManjotsBooks.DataAccess.Repository;
 using ManjotsBooks.DataAccess.Repository.IRepository;
 using ManjotsBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
@@ -34,9 +35,9 @@ namespace ManjotsBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-       
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             services.AddControllersWithViews();
         }
 
