@@ -98,8 +98,20 @@ Save and build peoject
 Project not run 
 No error in file 
 save teh file 
-
-
+03-04-2022
+Starting with 2.3 part of assignment 2
+Check the program running corecctly
+Tested OK 
+0235
+Create ne Category folder in Admin
+add new index view 
+Add coode into index view 
+Save it 
+Change code in layout html 
+run the app 
+Catgory shows on web-application
+Craete ne wbranch part 3 
+Update all data to git part 3
 
 
 
