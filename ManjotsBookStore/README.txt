@@ -98,7 +98,37 @@ Save and build peoject
 Project not run 
 No error in file 
 save teh file 
-
+03-04-2022
+Starting with 2.3 part of assignment 2
+Check the program running corecctly
+Tested OK 
+0235
+Create ne Category folder in Admin
+add new index view 
+Add coode into index view 
+Save it 
+Change code in layout html 
+run the app 
+Catgory shows on web-application
+Craete ne wbranch part 3 
+Update all data to git part 3
+3.30
+crete upsert view in category and add code from assignment 2 file 
+Create the function to create edit options
+Create new view file sin shared directory
+add code to in it
+check the app
+0350
+creating post method 
+modify CategoryController.cs toadd save method
+4,30
+add API for delete 
+impliment code to category.js 
+adding code for function Url 
+run app 
+some app funtion not work 
+Stop working at 5.01
+Upload togit hub
 
 
 
