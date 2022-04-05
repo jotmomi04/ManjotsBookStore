@@ -165,6 +165,41 @@ Check the layout file
 add Js files in layout.css
 It  working
 save and uload to github
+Cotiniue to Section 1 Part 2
+ 
+ 1620
+Adding Product controler 
+adding Migration to product 
+run the command
+-----20220405201011_AddProductToDb
+Changes in Unitofwork
+Add Repository
+1712
+Create ProductVM.cs In Viewmodels
+modify code
+add Microsft.AspNetCore.Mvc.ViewFeatures tools
+Add productController
+modify the code from PPt
+1820
+Add index and upsert file 
+Modify the chnages 
+Add upsert file from assignment 2 files
+Add javascript file in wwwroot directory in js 
+modify the javascript file 
+check the error 
+and run the file 
+No error found
+COntinue to next step
+Add script file from Tiny cloud
+Create a account on tiny cloud 
+Copy the link 
+Paste it to my Upsert.cshtml file of product
+Add additional code to Script file 
+Check the errors 
+Run The Application
+Application Run As expected 
+Stop working 1950
+Upload to git hub
 
 
 
