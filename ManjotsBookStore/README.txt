@@ -126,9 +126,35 @@ add API for delete
 impliment code to category.js 
 adding code for function Url 
 run app 
-some app funtion not work 
-Stop working at 5.01
-Upload togit hub
+-some app funtion not work 
+-top working at 5.01
+-Upload to git hub
+
+-04-04-2022
+-20-05
+-Starting work on part 3 assignment 2
+-Check privious errors
+-Forgot to Update database
+-Run Command to updae database
+-Check Applications
+-Try to add Category
+-Category not added successfully
+-Dont know soltuition to ADD CATEGORY
+10:03
+-moving to sec 1 part 3
+-Add coverType same as category
+-Follow same steps as CAtegory
+-Create migration for coverType
+ - --20220405031421_AddCoverTypeToDb
+ Create reporatory
+ after that create changes in Navbar
+ add link to index and upsert files
+ Try to run app
+ app run succesfully
+ Not create cover types
+ shows empty after click on create.
+0042
+uplaod to git Part-3sec1
 
 
 
