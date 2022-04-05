@@ -1,7 +1,7 @@
-﻿@model ManjotsBooks.Models.Category;
+﻿@model ManjotsBooks.Models.CoverType;
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Category";
+    var title = "Create CoverType";
 }
 <form method="post">
 
@@ -9,7 +9,7 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @if(Model.Id != null)
         { //edit
-            title = "Edit Category";
+            title = "Edit CoverType";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>

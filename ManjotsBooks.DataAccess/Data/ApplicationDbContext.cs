@@ -6,7 +6,7 @@ using System.Text;
 using ManjotsBooks.Models;
 
 namespace ManjotsBookStore.DataAccess.Data
-{
+{ 
     public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
@@ -14,5 +14,6 @@ namespace ManjotsBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<CoverType> CoverTypes { get; set; }
     }
 }
