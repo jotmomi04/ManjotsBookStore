@@ -155,8 +155,16 @@ run app
  shows empty after click on create.
 0042
 uplaod to git Part-3sec1
-
-
+  
+  05-04-2022
+  1130
+Reload the project
+Check for error 
+Showing error - not show th e add data 
+Check the layout file 
+add Js files in layout.css
+It  working
+save and uload to github
 
 
 
