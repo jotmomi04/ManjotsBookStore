@@ -209,6 +209,33 @@ No error
 File ok
 4:24
 Get provided git hub file 
+1205
+I change the Repository.cs and Irepository As provided file to get all products
+ Chage done
+ 1410
+ Change INdex and Upsert file , Change with provided code to get ProdutVM file 
+
+save and Run the app 
+
+Showing error Not getting pproduct in View 
+Check the error 
+Inspect the file 
+Error Shows In Produc.js 
+ , 
+ there is sytax error of '{' show in inspection browser 
+ it is due to browser Chache data
+
+ change the the running bwoser
+ Its working
+ 15:04
+ Add books in product 
+ Books add successfully
+ Check Product List 
+ List shows books
+ Now move to next step
+ Try to dispaly books in customer home page
+ 15:15
+
 
 
 
