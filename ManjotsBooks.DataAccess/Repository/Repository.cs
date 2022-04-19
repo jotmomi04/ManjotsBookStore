@@ -1,30 +1,29 @@
-﻿using System;
+﻿using ManjotsBooks.DataAccess.Repository.IRepository;
+using ManjotsBookStore.DataAccess.Data;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using ManjotsBooks.DataAccess.Repository.IRepository;
-using ManjotsBookStore.DataAccess.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace ManjotsBooks.DataAccess.Repository
 {
-    // Implements all the methods of the IRepository
     public class Repository<T> : IRepository<T> where T : class
     {
-        // modify the database w/ the db context
-        private readonly ApplicationDbContext _db;      // get the db instance using the constructor and DI 
-       
+
+        private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
-        public Repository(ApplicationDbContext db)     // use hot keys C-T-O-R to build the constructor
+
+        public Repository(ApplicationDbContext db)
         {
             _db = db;
             this.dbSet = _db.Set<T>();
         }
         public void Add(T entity)
         {
-            dbSet.Add(entity);      // add context so classes correspond to the DbSet in ApplicationDbContext
+            dbSet.Add(entity);
         }
 
         public T Get(int id)
@@ -35,6 +34,7 @@ namespace ManjotsBooks.DataAccess.Repository
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null) {
                 query = query.Where(filter);
             }
@@ -48,12 +48,13 @@ namespace ManjotsBooks.DataAccess.Repository
             if (orderBy != null) {
                 return orderBy(query).ToList();
             }
-            return query.ToList();      // returns the IEnumerable based on the conditions of the query
+            return query.ToList();
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null) {
                 query = query.Where(filter);
             }
@@ -64,7 +65,8 @@ namespace ManjotsBooks.DataAccess.Repository
                 }
             }
 
-            return query.FirstOrDefault();      // returns the IEnumerable based on the conditions of the query
+
+            return query.FirstOrDefault();
         }
 
         public void Remove(int id)

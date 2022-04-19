@@ -7,18 +7,24 @@ using System.Threading.Tasks;
 
 namespace ManjotsBooks.DataAccess.Repository.IRepository
 {
-  public interface IRepository<T> where T:  class 
-
+    public interface IRepository<T> where T : class
     {
         T Get(int id);
+
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy =null,
-            string includeProperties = null);
-        void Add(T entity); // add entity
-        void Remove(int id); //remove objrct or categoory
-        void Remove(T entity);//other wa to remove object or category
-        void RemoveRange(IEnumerable<T> entity); //removes a complete range of entites 
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = null
+            );
 
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            );
+
+        void Add(T entity);
+        void Remove(int id);
+        void Remove(T entity);
+        void RemoveRange(IEnumerable<T> entity);
     }
 }
