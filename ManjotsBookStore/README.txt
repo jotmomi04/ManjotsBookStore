@@ -235,8 +235,17 @@ Error Shows In Produc.js
  Now move to next step
  Try to dispaly books in customer home page
  15:15
-
-
+ 20-04-2022
+ Create Index and controller for customer to shoew the products
+ first modify Homecontroller with provided code
+ let modify index file of customer 
+ add code to show added products 
+ Modify and save 
+ Check to make sure it runs
+ File run succesfully 
+ Add three books 
+ Check the books added succesfully
+ Save the file   
 
 
 
